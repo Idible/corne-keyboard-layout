@@ -175,18 +175,18 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y          &kp U     &kp I                &kp O    &kp P     &lt FLR LEFT_BRACKET
-&kp LCTRL  &kp A  &kp S  &kp D         &tdF          &kp G        &kp H          &tdJ      &kp K                &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N          &kp M     &kp COMMA            &kp DOT  &kp FSLH  &mt RALT RIGHT_BRACKET
-                         &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 RET    &lt RSE SPACE  &kp BSPC  &mt CAPSLOCK ESCAPE
+&kp TAB    &kp Q  &kp W  &kp E         &kp R         &kp T          &kp Y          &kp U     &kp I                &kp O    &kp P     &lt FLR LEFT_BRACKET
+&kp LCTRL  &kp A  &kp S  &kp D         &tdF          &kp G          &kp H          &tdJ      &kp K                &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V         &kp B          &kp N          &kp M     &kp COMMA            &kp DOT  &kp FSLH  &mt RALT RIGHT_BRACKET
+                         &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 SPACE    &lt RSE ENTER  &kp BSPC  &mt CAPSLOCK ESCAPE
             >;
         };
 
         lower_layer {
             bindings = <
-&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4          &kp N5       &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &trans
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&kp LSHFT  &trans    &trans  &trans    &kp UNDERSCORE  &kp MINUS    &kp PLUS   &kp EQUAL  &trans     &trans    &trans    &trans
+&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4          &kp N5       &kp N6     &kp N7     &kp N8           &kp N9    &kp N0    &trans
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK        &kp LPAR  &kp RPAR  &trans
+&kp LSHFT  &trans    &trans  &trans    &kp UNDERSCORE  &kp MINUS    &kp PLUS   &kp EQUAL  &kp PRINTSCREEN  &trans    &trans    &trans
                              &trans    &trans          &trans       &trans     &trans     &mo 4
             >;
         };
