@@ -184,9 +184,9 @@
 
         lower_layer {
             bindings = <
-&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4          &kp N5       &kp N6     &kp N7     &kp N8           &kp N9    &kp N0    &trans
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK        &kp LPAR  &kp RPAR  &trans
-&kp LSHFT  &trans    &trans  &trans    &kp UNDERSCORE  &kp MINUS    &kp PLUS   &kp EQUAL  &kp PRINTSCREEN  &trans    &trans    &trans
+&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4          &kp N5       &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp PRINTSCREEN
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp PIPE
+&kp LSHFT  &trans    &trans  &trans    &kp UNDERSCORE  &kp MINUS    &kp PLUS   &kp EQUAL  &trans     &trans    &trans    &kp BSLH
                              &trans    &trans          &trans       &trans     &trans     &mo 4
             >;
         };
